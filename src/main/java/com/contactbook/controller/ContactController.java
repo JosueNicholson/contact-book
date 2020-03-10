@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.contactbook.model.Contact;
 import com.contactbook.repository.ContactRepository;
+
 @CrossOrigin
 @RestController
 @RequestMapping(value="/api")
